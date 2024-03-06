@@ -14,3 +14,4 @@ public class Buku {
         return "Buku {judulBuku=" + judulBuku + ", penulis=" + penulis + ", tahunTerbit=" + tahunTerbit + "}";
     }
 }
+//.
