@@ -41,14 +41,14 @@ public class Main {
 
                     if (yesOrNo.equals("y")) {
                         listBuku.hapusDiAwal();
-                        System.out.println("Data pegawai di awal list berhasil dihapus");
+                        System.out.println("Data buku di awal list berhasil dihapus");
                     } else {
                         listBuku.hapusDiAkhir();
-                        System.out.println("Data pegawai di akhir list berhasil dihapus");
+                        System.out.println("Data buku di akhir list berhasil dihapus");
                     }
                     break;
                 case 3:
-                    System.out.println("List pegawai adalah:");
+                    System.out.println("List buku adalah:");
                     listBuku.print();
                     break;
             }
